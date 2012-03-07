@@ -1,0 +1,2 @@
+This is a test node application that subscribes to a channel in Redis. It updates the browser as messages are published to the
+ channel it is listening on in Redis ('c1' but should be parametrized in the future).

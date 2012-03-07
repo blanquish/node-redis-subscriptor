@@ -1,0 +1,18 @@
+{   "name" : "node-redis-subscriptor",
+    "version" : "0.1",
+    "description" : "Node program that subscribes to a channel in Redis, and shows messages posted on that channel in browser",
+    "author": "Blanca Garcia <bgarciagil@gmail.com>",
+    "main": "./app.js",
+    "dependencies": {
+        "express": "2.5.x",
+        "socket.io": "0.8.x",
+        "redis": "0.7.x"
+    },
+    "optionalDependencies": {
+        "hiredis": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/blanquish/node-redis-subscriptor.git"
+    }
+}
